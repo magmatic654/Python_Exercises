@@ -12,4 +12,10 @@ def check_negative_and_zero(number):
     return True
 
 if __name__ == '__main__':
-    pass
+    check_negative(1)
+    check_negative(-1)
+    check_zero(1)
+    check_zero(0)
+    check_negative_and_zero(1)
+    check_negative_and_zero(-1)
+    check_negative_and_zero(0)
