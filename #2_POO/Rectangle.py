@@ -28,14 +28,6 @@ class Rectangle:
             except ValueError as error:
                 return error
         return wrapped 
-    
-    def try_catch(func):
-        def wrapped(*args,**kwargs):
-            try:
-                return func(*args,**kwargs)
-            except ValueError as error:
-                return error
-        return wrapped 
 
     def calculateArea(self):
         return self._length * self._width
